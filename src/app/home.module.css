@@ -111,3 +111,21 @@
 .submitButton:hover {
   background-color: #1a4d3c;
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    line-height: 50px;
+    width:100%;
+  }
+  .bottom {
+    background-color: white;
+    padding: 20px 0px;
+  }
+  
+.formContainer {
+  /* padding: 1rem; */
+  margin-top: -40px;
+}
+}
