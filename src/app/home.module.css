@@ -1,0 +1,113 @@
+.container {
+  background-color: #12372A;
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  line-height: 80px;
+  width: 50%;
+}
+
+.bottom {
+  background-color: white;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+  color: #333;
+}
+
+.bottomContainer {
+  width: 100%;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 2rem; */
+  height: 100%;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo h2 {
+  color: #12372A;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.logo p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.formContainer {
+  padding: 1rem;
+}
+
+.formContainer h2 {
+  color: #12372A;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.form section {
+  margin-bottom: 2rem;
+}
+
+.form h3 {
+  color: #12372A;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.paymentSection {
+  margin: 2rem 0;
+}
+
+.paymentMethods {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.paymentMethods img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.submitButton {
+  background-color: #12372A;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #1a4d3c;
+}
